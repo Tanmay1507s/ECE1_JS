@@ -5,7 +5,7 @@ console.log(num);
 console.log(typeof(num));
 num = false;
 console.log(num);
-comsole.log(typeof(num));
+console.log(typeof(num));
 num = "ten";
 console.log(num);
 console.log(typeof(num));
