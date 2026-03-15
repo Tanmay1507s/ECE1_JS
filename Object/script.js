@@ -1,5 +1,5 @@
 var person={
-    fname:"Ajay",
+    fname:"Vinay",
     lname:"Singh",
     age:25,
     isMarried:true,
