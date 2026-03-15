@@ -4,7 +4,7 @@ function calculateResult(){
     let total=0;
     for(i=0;i<n;i++)
     {
-        let x=prompt("Enter the Subject No."+(i+1));
+        let x=prompt("Enter The Subject No."+(i+1));
         total+=x; 
     }
     let average=total/n;
