@@ -1,4 +1,7 @@
 var age=20;
+if(age>18){
+    console.log("<b>You are Eligible to cast the vote.</b>");
+}
 if(age>=18){
     console.log("You are an adult");
 }
