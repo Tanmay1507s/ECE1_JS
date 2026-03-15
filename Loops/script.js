@@ -1,3 +1,5 @@
-for(let x in person){
-    console.log("person details: "+x+":"+person[x])
+var count;
+for(count=0;count<10;count++)
+{
+    console.log("Current Count:"+count+"<br/>");
 }
