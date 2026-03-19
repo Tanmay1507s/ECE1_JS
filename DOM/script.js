@@ -42,24 +42,68 @@
 //result1[0].innerHTML="Jitendra";
 //const result=document.getElementById("jk").getAttribute("class");
 //document.getElementById("p1").innerHTML=result;
-function onClick(){
-    console.log("Clicked");
+//function onClick(){
+//    console.log("Clicked");
+//}
+//function onmouseover(){
+  //  console.log("on mouse over");
+//}
+//function onmousemove(){
+  //  console.log("on mouse move");
+//}
+//function onmouseout(){
+  //  console.log("on mouse out");
+//}
+//function onmousedown(){
+  //  console.log("on mouse down");
+//}
+//function onmouseup(){
+  //  console.log("on mouse up");
+//}
+//function onmousedblclick(){
+  //  console.log("on mouse double click");
+//}
+
+//Asynchronous Programming
+//let promise = new Promise((resolve,reject)=>{
+  //  let success = true;
+    //if(success)
+      //  resolve("Data Locked");
+    //else
+      //  reject("Error Occured");
+//});
+  //  promise.then(result => console.log(result)).catch(error => console.log(error));
+//resolve then statement us executed and rejevct catch statement is executed
+
+//synchronous event
+//async function getData() {
+  //  let response = await fetch("https://jsonplaceholder.typocode.com/users");
+    //let data = await response.json();
+    //console.log(data);
+//}
+//getData();
+
+//fetch API
+//fetch("https://jsonplaceholder.typicode.com/posts").then(response => response.jsom()).then(data => console.log(data)).catch(error => console.log(error))
+
+
+try{
+    var x = y+10;
+}catch(error){
+    console.log
 }
-function onmouseover(){
-    console.log("on mouse over");
-}
-function onmousemove(){
-    console.log("on mouse move");
-}
-function onmouseout(){
-    console.log("on mouse out");
-}
-function onmousedown(){
-    console.log("on mouse down");
-}
-function onmouseup(){
-    console.log("on mouse up");
-}
-function onmousedblclick(){
-    console.log("on mouse double click");
-}
+
+
+//local storage
+localStorage.setItem("name","Jeet");
+//retrieve data
+var name1 = localStorage.getItem("name");
+console.log(name1);
+//Remove Data
+localStorage.removeItem("name");
+//store Object
+var user = {name:"Jeet",age:50};
+localStorage.setItem("user",JSON.stringify(user));
+//Retrieve Object
+var data = JSON.parse(localStorage.getItem("user"));
+console.log(data);
