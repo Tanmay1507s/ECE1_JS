@@ -1,15 +1,12 @@
-// Get elements
 const heading = document.getElementById("main-heading");
 const input = document.getElementById("heading-input");
 const paragraph = document.getElementById("sample-para");
-
 // Buttons
 const btnChangeHeading = document.getElementById("btn-change-heading");
 const btnChangeBg = document.getElementById("btn-change-bg");
 const btnFontSize = document.getElementById("btn-font-size");
 const btnTogglePara = document.getElementById("btn-toggle-para");
 const btnReset = document.getElementById("btn-reset");
-
 // Event Listeners
 btnChangeHeading.addEventListener("click", () => {
   const newText = input.value.trim();
@@ -19,12 +16,10 @@ btnChangeHeading.addEventListener("click", () => {
     alert("Please enter text to change the heading!");
   }
 });
-
 btnChangeBg.addEventListener("click", () => {
   document.body.style.backgroundColor =
     document.body.style.backgroundColor === "lightyellow" ? "#f4f4f4" : "lightyellow";
 });
-
 btnFontSize.addEventListener("click", () => {
   heading.style.fontSize = "2.5em";
 });
